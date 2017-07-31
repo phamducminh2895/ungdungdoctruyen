@@ -1,0 +1,204 @@
+body{
+    font-family: Arial, Tahoma;
+    font-size: 12px;
+}
+
+#main{
+    width: 1350px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#head{
+    height: 300px;
+    background-color: #F5F5F5;
+    border: 1px solid #CDCDCD;
+    margin-bottom:5px;
+    background: linear-gradient(red, black); /* Standard syntax */
+}
+
+#head-link{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #CDCDCD;
+    background-color: gold;
+    margin-bottom:5px;
+    clear: both;
+    color: red;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+
+    }
+
+#left{
+    width: 190px;
+    min-height: 250px;
+    border: 1px solid #CDCDCD;
+    float:left;
+    background: linear-gradient(black, red); /* Standard syntax */
+    margin-bottom: 5px;
+}
+#content{
+    width: 940px;
+    min-height: 434px;
+    border: 1px solid #CDCDCD;
+    float:left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+#right{
+    width: 200px;
+    min-height: 600px;
+    border: 1px solid #CDCDCD;
+    float:right;
+    background: linear-gradient(black, red); /* Standard syntax */
+    margin-bottom: 5px;
+}
+
+#footer{
+    height: 50px;
+    clear: both;
+    border: 1px solid #CDCDCD;
+    background: linear-gradient(red, darkviolet); /* Standard syntax */
+}
+
+body{
+    font-family: Arial;
+}
+#menu, #menu ul, #menu li{
+    padding:0;
+    margin:0;
+}
+
+#menu li{
+    font-size: medium;
+    list-style: none;
+    position: relative;
+    width:180px;
+    height: 30px;
+    padding:0 5px;
+    background-color: grey;
+    line-height: 30px;
+    cursor:pointer;
+    }
+
+#menu li a{
+    text-decoration:none;
+    color: black;
+    }
+
+#menu li:hover{
+    background-color:red;
+}
+
+#menu ul ul{
+    position: absolute;
+    top:0;
+    left:190px;
+    visibility:hidden;
+    }
+
+#menu ul li:hover ul{
+    visibility:visible;
+}
+h3{
+    color: white;
+    font-size: medium;
+    text-align: center;
+}
+#list-truyen {
+font-size: medium;
+width:0px;
+height: 30px;
+padding:0 0px;
+line-height: 20px;
+cursor:pointer;
+}
+
+#list-sach {
+    font-size: medium;
+    width:0px;
+    height: 0px;
+    padding:0 0px;
+    line-height: 0px;
+    cursor:pointer;
+}
+
+#facebook {
+    cursor:pointer;
+}
+
+#search{
+position: relative;
+    top:5px;
+    left: 386px;
+}
+
+#ngang{
+    height: 30px;
+    padding:0;
+    margin:0;
+    background-color: #000000;
+    border: 0px solid #CDCDCD;
+}
+
+#ngang ul, #ngang li{
+    padding:0px;
+    margin:0;
+    position: relative;
+    left:165px;
+}
+
+#ngang li{
+    position: relative;
+    float: left;
+    list-style: none;
+    margin:0px;
+    padding:0px;
+}
+
+#ngang li a{
+    width:100px;
+    height: 30px;
+    display: block;
+    text-decoration:none;
+    text-align: center;
+    line-height: 30px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+        }
+
+#ngang ul ul li a{
+    width: 200px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#ngang li a:hover{
+    background-color: blue;
+}
+
+#ngang ul ul{
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    visibility: hidden;
+}
+
+#ngang ul li:hover ul{
+    visibility: visible;
+
+
+}
+.story{
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+}
