@@ -32,11 +32,11 @@ body{
     font-weight: bold;
     text-align: center;
 
-    }
+}
 
 #left{
     width: 190px;
-    min-height: 250px;
+    min-height: 270px;
     border: 1px solid #CDCDCD;
     float:left;
     background: linear-gradient(black, red); /* Standard syntax */
@@ -44,26 +44,17 @@ body{
 }
 #content{
     width: 940px;
-    min-height: 434px;
+    min-height: 270px;
     border: 1px solid #CDCDCD;
     float:left;
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 5px;
 }
-#content2{
-    width: 940px;
-    min-height: 434px;
-    border: 1px solid #CDCDCD;
-    float:left;
-    margin-left: 198px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-}
 
 #right{
     width: 200px;
-    min-height: 680px;
+    min-height: 270px;
     border: 1px solid #CDCDCD;
     float:right;
     background: linear-gradient(black, red); /* Standard syntax */
@@ -95,12 +86,12 @@ body{
     background-color: grey;
     line-height: 30px;
     cursor:pointer;
-    }
+}
 
 #menu li a{
     text-decoration:none;
     color: black;
-    }
+}
 
 #menu li:hover{
     background-color:red;
@@ -111,7 +102,7 @@ body{
     top:0;
     left:190px;
     visibility:hidden;
-    }
+}
 
 #menu ul li:hover ul{
     visibility:visible;
@@ -122,12 +113,12 @@ h3{
     text-align: center;
 }
 #list-truyen {
-font-size: medium;
-width:0px;
-height: 450px;
-padding:0 0px;
-line-height: 20px;
-cursor:pointer;
+    font-size: medium;
+    width:0px;
+    height: 30px;
+    padding:0 0px;
+    line-height: 20px;
+    cursor:pointer;
 }
 
 #list-sach {
@@ -152,9 +143,9 @@ cursor:pointer;
 }
 
 #search{
-position: relative;
+    position: relative;
     top:5px;
-    left: 235px;
+    left: 370px;
 }
 
 #ngang{
@@ -190,7 +181,7 @@ position: relative;
     background-color: black;
     color: white;
     font-size: medium;
-        }
+}
 
 #ngang ul ul li a{
     width: 200px;
@@ -214,15 +205,4 @@ position: relative;
     visibility: visible;
 
 
-}
-.story{
-    display: inline-block;
-    width: 300px;
-    height: 400px;
-}
-#c{
-    cursor: pointer;
-}
-#c:hover {
-    background-color: cadetblue;
 }
